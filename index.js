@@ -25,7 +25,7 @@ bot.command("menu", (ctx) => {
 });
 
 bot.command("webapp", (ctx) => {
-  const keyboard = new InlineKeyboard().webApp("Открыть веб-приложение", "https://2ff5-92-62-69-232.ngrok-free.app/");
+  const keyboard = new InlineKeyboard().webApp("Открыть веб-приложение", "https://4e57-92-62-69-232.ngrok-free.app/");
   ctx.reply("Нажмите кнопку ниже, чтобы открыть веб-приложение:", { reply_markup: keyboard });
 });
 
